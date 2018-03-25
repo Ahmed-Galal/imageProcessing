@@ -7,7 +7,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-img = cv2.imread('/home/satyak/Desktop/Image/two.jpeg')
+img = cv2.imread('Sharpen.jpg')
 
 
 kernel = np.array([[-1,-1,-1], [-1,9,-1], [-1,-1,-1]])

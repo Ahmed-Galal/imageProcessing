@@ -7,7 +7,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-img = cv2.imread('/home/satyak/Desktop/Image/one.jpeg')
+img = cv2.imread('Smooth.jpg')
 
 blur = cv2.blur(img,(5,5))#Averaging
 
